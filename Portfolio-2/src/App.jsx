@@ -1,13 +1,8 @@
 import React from 'react'
+import ThemeTest from './components/ThemeTest'
 
 function App() {
-  return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-gray-900">
-        Portfolio App - Vite + React
-      </h1>
-    </div>
-  )
+  return <ThemeTest />
 }
 
 export default App
