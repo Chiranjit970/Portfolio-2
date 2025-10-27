@@ -1,2 +1,1 @@
-// Context providers will be added here
-export {}
+export { DataProvider, useData } from './DataContext.jsx'

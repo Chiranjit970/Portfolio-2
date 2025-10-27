@@ -2,7 +2,7 @@ import React from 'react'
 import { DataProvider } from './context'
 import { DataTest } from './components'
 
-function App() {
+function AppTest() {
   return (
     <DataProvider>
       <DataTest />
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default AppTest

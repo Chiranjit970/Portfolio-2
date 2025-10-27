@@ -1,2 +1,1 @@
-// Data and constants will be added here
-export {}
+export { default as defaultData } from './defaultData.js'
