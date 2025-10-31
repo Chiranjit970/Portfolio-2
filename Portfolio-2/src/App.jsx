@@ -1,12 +1,11 @@
 import React from 'react'
-import { DataProvider } from './context'
-import { DataTest } from './components'
+import ResumeBuilder from './components/ResumeBuilder'
 
 function App() {
   return (
-    <DataProvider>
-      <DataTest />
-    </DataProvider>
+    <div className="app">
+      <ResumeBuilder />
+    </div>
   )
 }
 

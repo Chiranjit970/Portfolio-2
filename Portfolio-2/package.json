@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-2",
+  "name": "resume-builder-ats",
   "version": "1.0.0",
-  "description": "Portfolio project with Vite, React, and 3D graphics",
+  "description": "AI-Powered ATS-Friendly Resume Builder with GPT Integration",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "echo 'Linting not configured yet'"
   },
-  "keywords": [],
+  "keywords": ["resume", "ATS", "GPT", "AI", "career"],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,6 +19,9 @@
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.3",
     "lucide-react": "^0.548.0",
+    "openai": "^4.28.0",
+    "pdfjs-dist": "^4.0.379",
+    "pdf-parse": "^1.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.9.4",
