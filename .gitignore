@@ -39,3 +39,11 @@ lerna-debug.log*
 # OS files
 Thumbs.db
 .DS_Store
+
+# Uploaded files (for development)
+uploads/
+*.pdf
+!sample.pdf
+
+# Generated resumes
+generated-resumes/
